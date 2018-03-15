@@ -90,19 +90,3 @@ print type(d.ts_to_dt(x)[0]),d.ts_to_dt(x)[0],x
 
 
 
-##d=W_data()
-##print d.teraz()[0],d.teraz()[1]
-##print d.teraz_godz()[0],d.teraz_godz()[1]
-##print d.teraz_data()[0],d.teraz_data()[1]
-##print d.data_z_string('Jun 1 2005  1:33:00')[0],d.data_z_string('Jun 1 2005  1:33:00')[1]
-##print d.data_z_string_data('Jun 1 2005')[0],d.data_z_string_data('Jun 1 2005')[1]
-##print d.data_z_string_godz('13:33:00')[0],d.data_z_string_godz('13:33:00')[1]
-##
-##help(d.data_z_string)
-##
-###print dir(d)
-##
-##
-##print d.tdelta_f_string('Jun 1 2005  13:33:00','Jun 1 2005  13:34:01')[0],d.tdelta_f_string('Jun 1 2005  13:33:00','Jun 1 2005  13:34:01')[1]
-##
-##print d.date_separated()
